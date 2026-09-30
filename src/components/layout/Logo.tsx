@@ -5,15 +5,13 @@
  */
 export function LogoMark({ className = '' }: { className?: string }) {
   return (
-    <span
-      className={`inline-flex shrink-0 items-center justify-center overflow-hidden rounded-[12px] bg-white ring-1 ring-forest/10 ${className}`}
-    >
+    <span className={`inline-flex shrink-0 items-center justify-center ${className}`}>
       <img
         src="/assets/logo/ihsan-mark-192.png"
         alt=""
         width={192}
         height={192}
-        className="h-full w-full object-cover"
+        className="h-full w-full object-contain"
         aria-hidden
       />
     </span>

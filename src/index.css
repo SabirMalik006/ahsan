@@ -1,0 +1,400 @@
+@import 'tailwindcss';
+
+/* ==========================================================================
+   IHSAN GLOBAL QURAN ACADEMY — DESIGN TOKENS
+   Deep Islamic green · warm ivory · soft gold · sage
+   ========================================================================== */
+@theme {
+  --color-forest: #063f32;
+  --color-forest-deep: #042b22;
+  --color-forest-soft: #0b5a46;
+  --color-forest-mist: #137260;
+
+  --color-sage: #dde9de;
+  --color-sage-deep: #c3d5c6;
+  --color-cream: #f8f4ea;
+  --color-beige: #ede5d5;
+  --color-ivory: #f7f8f3;
+  --color-white: #ffffff;
+
+  --color-gold: #c9a45c;
+  --color-gold-light: #e5c985;
+  --color-gold-deep: #a8842f;
+
+  --color-ink: #10221d;
+  --color-muted: #53645e;
+
+  --font-display: 'Playfair Display', 'Iowan Old Style', 'Times New Roman', serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-arabic: 'Amiri', 'Playfair Display', serif;
+
+  --radius-arch: 999px 999px 28px 28px;
+  --shadow-soft: 0 1px 2px rgba(6, 63, 50, 0.04), 0 12px 34px -18px rgba(6, 63, 50, 0.22);
+  --shadow-lift: 0 2px 6px rgba(6, 63, 50, 0.05), 0 30px 60px -28px rgba(6, 63, 50, 0.3);
+  --shadow-glow: 0 40px 90px -40px rgba(201, 164, 92, 0.55);
+
+  --ease-silk: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ==========================================================================
+   BASE
+   ========================================================================== */
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: -0.005em;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    color: var(--color-forest);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--color-gold) 34%, transparent);
+    color: var(--color-forest);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-cream);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--color-forest) 35%, var(--color-sage));
+    border-radius: 999px;
+    border: 3px solid var(--color-cream);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-forest-soft);
+  }
+
+  ::placeholder {
+    color: color-mix(in srgb, var(--color-muted) 70%, transparent);
+  }
+}
+
+/* ==========================================================================
+   COMPONENT SYSTEM
+   ========================================================================== */
+@layer components {
+  /* --- layout ------------------------------------------------------------ */
+  .shell {
+    width: 100%;
+    max-width: 1320px;
+    margin-inline: auto;
+    padding-inline: 20px;
+  }
+  @media (min-width: 768px) {
+    .shell {
+      padding-inline: 40px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .shell {
+      padding-inline: 56px;
+    }
+  }
+
+  .section-y {
+    padding-block: 72px;
+  }
+  @media (min-width: 768px) {
+    .section-y {
+      padding-block: 104px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .section-y {
+      padding-block: 132px;
+    }
+  }
+
+  /* --- type ------------------------------------------------------------- */
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  @media (min-width: 768px) {
+    .eyebrow {
+      font-size: 12px;
+    }
+  }
+
+  .display-1 {
+    font-size: clamp(2.15rem, 1.1rem + 4.1vw, 4.4rem);
+    line-height: 1.03;
+  }
+  .display-2 {
+    font-size: clamp(1.85rem, 1.15rem + 2.6vw, 3.2rem);
+    line-height: 1.08;
+  }
+  .display-3 {
+    font-size: clamp(1.45rem, 1.1rem + 1.4vw, 2.1rem);
+    line-height: 1.15;
+  }
+  /* Hero headline only — deliberately capped so the two-column hero stays
+     compact: ~38px mobile → ~48px laptop → ~60px at 1440 → 69px ceiling. */
+  .hero-display {
+    font-size: clamp(2.35rem, 1.2rem + 3vw, 4.35rem);
+    line-height: 1.05;
+  }
+  .lede {
+    font-size: clamp(1rem, 0.95rem + 0.28vw, 1.16rem);
+    line-height: 1.85;
+    color: var(--color-muted);
+  }
+
+  .gold-rule {
+    height: 1px;
+    width: 64px;
+    background: linear-gradient(90deg, var(--color-gold), transparent);
+  }
+
+  /* --- surfaces --------------------------------------------------------- */
+  .surface {
+    background: var(--color-white);
+    border: 1px solid color-mix(in srgb, var(--color-forest) 8%, transparent);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .glass {
+    background: color-mix(in srgb, var(--color-white) 72%, transparent);
+    backdrop-filter: blur(18px) saturate(140%);
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+    border: 1px solid color-mix(in srgb, var(--color-white) 60%, transparent);
+  }
+
+  .arch-top {
+    border-radius: var(--radius-arch);
+  }
+
+  .hairline {
+    border-color: color-mix(in srgb, var(--color-gold) 30%, transparent);
+  }
+
+  /* --- patterns --------------------------------------------------------- */
+  .pattern-grid {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill='none' stroke='%23063F32' stroke-width='0.6'%3E%3Cpath d='M30 4l7.5 18.5L56 30l-18.5 7.5L30 56l-7.5-18.5L4 30l18.5-7.5z'/%3E%3Ccircle cx='30' cy='30' r='5.5'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 60px 60px;
+  }
+
+  .pattern-stars {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='%23C9A45C' stroke-width='0.7'%3E%3Cpath d='M40 6l9.6 15.4L68 15l-6.4 18.4L80 40l-18.4 6.6L68 65l-18.4-6.4L40 74l-9.6-15.4L12 65l6.4-18.4L0 40l18.4-6.6L12 15l18.4 6.4z'/%3E%3Crect x='26' y='26' width='28' height='28' transform='rotate(45 40 40)'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 80px 80px;
+  }
+
+  .pattern-arabesque {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%23E5C985' stroke-width='0.6'%3E%3Cpath d='M60 0c0 33 27 60 60 60-33 0-60 27-60 60 0-33-27-60-60-60 33 0 60-27 60-60z'/%3E%3Ccircle cx='60' cy='60' r='26'/%3E%3Ccircle cx='0' cy='0' r='18'/%3E%3Ccircle cx='120' cy='0' r='18'/%3E%3Ccircle cx='0' cy='120' r='18'/%3E%3Ccircle cx='120' cy='120' r='18'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 120px 120px;
+  }
+
+  .grain {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  }
+
+  /* --- ornament --------------------------------------------------------- */
+  .ornament-line {
+    position: relative;
+  }
+  .ornament-line::after {
+    content: '';
+    position: absolute;
+    inset-inline: 0;
+    bottom: -1px;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in srgb, var(--color-gold) 55%, transparent),
+      transparent
+    );
+  }
+
+  .tick-list {
+    display: grid;
+    gap: 10px;
+    list-style: none;
+  }
+  .tick-list > li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    font-size: 0.9375rem;
+    color: color-mix(in srgb, var(--color-ink) 82%, var(--color-muted));
+  }
+
+  .link-underline {
+    position: relative;
+    display: inline-block;
+  }
+  .link-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 1px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: currentColor;
+    transition: transform 460ms var(--ease-silk);
+  }
+  .link-underline:hover::after,
+  .link-underline:focus-visible::after {
+    transform: scaleX(1);
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .stroke-mask-r {
+    mask-image: linear-gradient(90deg, #000 82%, transparent);
+  }
+}
+
+/* ==========================================================================
+   MOTION
+   ========================================================================== */
+@layer utilities {
+  @keyframes float-slow {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0) rotate(0deg);
+    }
+    50% {
+      transform: translate3d(0, -14px, 0) rotate(3deg);
+    }
+  }
+  @keyframes spin-slow {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes drift {
+    0% {
+      transform: translate3d(0, 0, 0);
+      opacity: 0;
+    }
+    12% {
+      opacity: 0.9;
+    }
+    100% {
+      transform: translate3d(14px, -110px, 0);
+      opacity: 0;
+    }
+  }
+  @keyframes shimmer {
+    0% {
+      background-position: -160% 0;
+    }
+    100% {
+      background-position: 260% 0;
+    }
+  }
+  @keyframes grow-x {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
+  @keyframes sheen {
+    0% {
+      opacity: 0.25;
+      transform: translateX(-20%) scale(0.94);
+    }
+    50% {
+      opacity: 0.6;
+      transform: translateX(0) scale(1);
+    }
+    100% {
+      opacity: 0.25;
+      transform: translateX(20%) scale(0.94);
+    }
+  }
+
+  .anim-float {
+    animation: float-slow 9s var(--ease-silk) infinite;
+  }
+  .anim-progress {
+    transform-origin: left center;
+    animation-name: grow-x;
+    animation-duration: 6500ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  .anim-spin {
+    animation: spin-slow 44s linear infinite;
+  }
+  .anim-spin-rev {
+    animation: spin-slow 68s linear infinite reverse;
+  }
+  .anim-sheen {
+    animation: sheen 12s ease-in-out infinite;
+  }
+  .anim-shimmer {
+    background-size: 220% 100%;
+    animation: shimmer 7s linear infinite;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

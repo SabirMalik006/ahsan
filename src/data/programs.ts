@@ -77,6 +77,10 @@ export const programs: Program[] = [
   },
 ]
 
+export function getProgramBySlug(slug: string) {
+  return programs.find((program) => program.id === slug)
+}
+
 export type Scholar = {
   id: string
   name: string

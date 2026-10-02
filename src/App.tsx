@@ -1,16 +1,15 @@
 import { Navbar } from './components/layout/Navbar'
 import { Footer } from './components/layout/Footer'
-import { HeroCarousel } from './components/home/HeroCarousel'
-import { LearningJourney } from './components/home/LearningJourney'
-import { WhyChooseUs } from './components/home/WhyChooseUs'
-import { ProgramsSection } from './components/home/ProgramsSection'
-import { ImmersiveFeature } from './components/home/ImmersiveFeature'
-import { ScholarsSection } from './components/home/ScholarsSection'
-import { KnowledgeLibrary } from './components/home/KnowledgeLibrary'
-import { CommunitySection } from './components/home/CommunitySection'
-import { Testimonials } from './components/home/Testimonials'
-import { StatsSection } from './components/home/StatsSection'
-import { FinalCTA } from './components/home/FinalCTA'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import AboutVision from './pages/AboutVision'
+import Philosophy from './pages/Philosophy'
+import HolisticFramework from './pages/HolisticFramework'
+import Initiatives from './pages/Initiatives'
+import Programs from './pages/Programs'
+import ProgramDetail from './pages/ProgramDetail'
+import Contact from './pages/Contact'
+import Register from './pages/Register'
 
 export default function App() {
   return (
@@ -25,17 +24,17 @@ export default function App() {
       <Navbar />
 
       <main id="main">
-        <HeroCarousel />
-        <LearningJourney />
-        <WhyChooseUs />
-        <ProgramsSection />
-        <ImmersiveFeature />
-        <ScholarsSection />
-        <KnowledgeLibrary />
-        <CommunitySection />
-        <Testimonials />
-        <StatsSection />
-        <FinalCTA />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about-vision" element={<AboutVision />} />
+          <Route path="/philosophy" element={<Philosophy />} />
+          <Route path="/holistic-framework" element={<HolisticFramework />} />
+          <Route path="/initiatives" element={<Initiatives />} />
+          <Route path="/programs" element={<Programs />} />
+          <Route path="/programs/:slug" element={<ProgramDetail />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
       </main>
 
       <Footer />

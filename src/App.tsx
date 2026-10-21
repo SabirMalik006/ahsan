@@ -8,6 +8,7 @@ import HolisticFramework from './pages/HolisticFramework'
 import Initiatives from './pages/Initiatives'
 import Programs from './pages/Programs'
 import ProgramDetail from './pages/ProgramDetail'
+import QuranAcademy from './pages/QuranAcademy'
 import Contact from './pages/Contact'
 import Register from './pages/Register'
 
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/initiatives" element={<Initiatives />} />
           <Route path="/programs" element={<Programs />} />
           <Route path="/programs/:slug" element={<ProgramDetail />} />
+          <Route path="/programs/quran-online-academy" element={<QuranAcademy />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/register" element={<Register />} />
         </Routes>

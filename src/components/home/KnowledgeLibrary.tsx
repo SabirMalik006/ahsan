@@ -39,7 +39,7 @@ export function KnowledgeLibrary() {
       <div className="pattern-grid absolute inset-0 opacity-[0.04]" aria-hidden />
       <div
         aria-hidden
-        className="absolute inset-x-0 top-0 h-72 bg-[radial-gradient(45%_100%_at_70%_0%,rgba(237,229,213,0.95),transparent_70%)]"
+        className="absolute inset-x-0 top-0 h-72 bg-[radial-gradient(45%_100%_at_70%_0%,rgba(228, 224, 245,0.95),transparent_70%)]"
       />
 
       <div className="shell relative">
@@ -108,7 +108,7 @@ export function KnowledgeLibrary() {
                 initial={{ opacity: 0, y: 22 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: SILK, delay: Math.min(i, 5) * 0.05 }}
-                className="group relative flex flex-col rounded-[24px] border border-forest/8 bg-white p-6 transition-all duration-[650ms] ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1.5 hover:border-gold/35 hover:shadow-[0_36px_66px_-40px_rgba(6,63,50,0.4)]"
+                className="group relative flex flex-col rounded-[24px] border border-forest/8 bg-white p-6 transition-all duration-[650ms] ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1.5 hover:border-gold/35 hover:shadow-[0_36px_66px_-40px_rgba(100, 46, 124,0.4)]"
               >
                 <div className="flex items-center justify-between gap-3">
                   <span

@@ -1,0 +1,479 @@
+﻿EHSAAN GLOBAL
+Website Content Architecture & Design Content
+Core Identity
+EHSAAN GLOBALQur’an-Centred Education, Human Development & Social Reform
+Core Message:Building an integrated educational model rooted in the Qur’an and Sunnah to develop knowledge, character, skills, family life, and social responsibility.
+
+01 — HOME PAGE
+HERO SECTION
+EHSAAN GLOBAL
+Qur’an-Centred Education, Human Development & Social Reform
+We envision an integrated education model rooted in the Qur’an and Sunnah that develops individuals, strengthens families, and contributes to a responsible, educated, and morally grounded society.
+Primary Buttons
+Explore Our Vision
+Explore Our Programs
+
+SECTION 02 — WHY EHSAAN GLOBAL?
+Education Beyond Information
+Modern education often focuses on information, academic achievement, and professional skills. However, knowledge alone does not necessarily develop purpose, character, emotional maturity, family responsibility, or social awareness.
+Ehsaan Global seeks to connect these dimensions through an integrated educational approach.
+Our Response
+We connect:
+Qur’an & Sunnah↓Knowledge & Understanding↓Tarbiyah & Character↓Skills & Personal Development↓Family & Relationships↓Social Responsibility
+Our Vision
+To contribute to an educational ecosystem where knowledge is connected with purpose, character, practical skills, family life, and responsible participation in society.
+Button:Discover Our Vision
+
+02 — OUR EDUCATIONAL PHILOSOPHY
+Qur’an → Knowledge → Tarbiyah → Skills → Family → Society
+Our educational philosophy begins with the Qur’an and Sunnah as the foundation for understanding human purpose, knowledge, character, responsibility, and civilization.
+Education should not remain limited to classrooms or information transfer.
+It should help a person:
+{L0} Understand their purpose
+{L0} Develop knowledge and wisdom
+{L0} Build character
+{L0} Manage emotions and relationships
+{L0} Develop practical skills
+{L0} Strengthen family life
+{L0} Serve society responsibly
+Core Principle
+Knowledge should transform the individual, the individual should strengthen the family, and strong families should contribute to a responsible society.
+
+03 — OUR HOLISTIC EDUCATION FRAMEWORK
+Reimagining the Educational Journey
+Our Holistic Education Framework seeks to connect Qur’an, Sunnah, academic knowledge, science, character development, practical skills, leadership, and social responsibility into one integrated educational journey.
+STEP 01
+Qur’an & Tarbiyah
+Building the foundations of faith, identity, purpose, character, values, and personal responsibility.
+Focus Areas:
+{L0} Qur’an
+{L0} Sunnah
+{L0} Islamic worldview
+{L0} Character development
+{L0} Tazkiyah
+{L0} Purpose and identity
+{L0} Emotional and moral development
+
+STEP 02
+Integrated Academic & Scientific Learning
+Connecting academic learning and scientific inquiry with a meaningful worldview and responsible human development.
+Focus Areas:
+{L0} Academic knowledge
+{L0} Science
+{L0} Critical thinking
+{L0} Research
+{L0} Problem solving
+{L0} Creativity
+{L0} Intellectual development
+
+STEP 03
+Skills, Leadership & Social Responsibility
+Transforming knowledge into practical ability, leadership, service, and responsible participation in society.
+Focus Areas:
+{L0} Life skills
+{L0} Professional skills
+{L0} Leadership
+{L0} Communication
+{L0} Entrepreneurship
+{L0} Community service
+{L0} Social responsibility
+Framework Statement
+From knowledge to character.From character to capability.From capability to service.From individual development to social transformation.
+
+04 — OUR INITIATIVES
+Turning the Vision into Action
+Ehsaan Global develops and supports initiatives across different stages and dimensions of human development.
+
+INDIVIDUAL DEVELOPMENT
+Qur’an Online Academy
+Qur’an-centred foundational learning
+Qur’an, Arabic, Sunnah, understanding, reflection, and Tarbiyah designed to establish a strong foundation for lifelong learning.
+Button:Explore Program
+
+Seerah & Tarbiyah for Kids
+Character Development Through Seerah
+A child-centred learning approach that uses the Seerah of Prophet Muhammad ﷺ to develop character, emotional awareness, values, manners, and practical life skills.
+Button:Explore Program
+
+FAMILY DEVELOPMENT
+HUMSAFAR
+Family & Relationship Education
+An educational pathway addressing pre-marriage preparation, marriage, communication, conflict resolution, family relationships, parenting, and responsible family life.
+Button:Explore Program
+
+EDUCATIONAL DEVELOPMENT
+Holistic Education Framework
+An integrated educational model connecting Qur’an and Sunnah with academic learning, science, character development, practical skills, leadership, and social responsibility.
+Button:Explore Framework
+
+SOCIAL DEVELOPMENT
+Social Awareness & Educational Reform
+An initiative focused on education, family, youth, character, social responsibility, and constructive educational development.
+Button:Explore Initiative
+
+05 — PROGRAM DETAIL PAGE
+UNIVERSAL PROGRAM TEMPLATE
+Every Ehsaan Global program should follow the same basic content structure.
+This creates consistency across the website and allows new programs to be added without changing the overall website architecture.
+
+PROGRAM HERO
+[PROGRAM NAME]
+[One-Line Program Identity]
+A short 2–3 sentence introduction explaining what the program is and whom it serves.
+Primary Button:Join / Register
+Secondary Button:Explore the Program
+
+01 — INTRODUCTION
+What Is This Program?
+Provide a clear introduction to the program.
+Recommended length:
+100–150 words
+Explain:
+{L0} What the program is
+{L0} Why it was created
+{L0} Who it serves
+{L0} What educational need it addresses
+{L0} How it connects with the wider Ehsaan Global vision
+
+02 — WHY THIS PROGRAM?
+Why Does It Matter?
+Explain the educational, personal, family, or social need behind the program.
+The Challenge
+What gap, challenge, or need does this program address?
+Our Response
+How does Ehsaan Global respond to that need?
+The Purpose
+What change does the program seek to support?
+
+03 — OUR APPROACH
+How Do We Approach Learning?
+Every program should explain its educational pathway.
+Example:
+Qur’an↓Understanding↓Reflection↓Application↓Character
+The exact framework can be adapted according to the individual program.
+
+04 — WHAT WE OFFER
+Program Components
+Display the major components of the program as visual cards or icons.
+[Heading2] PROJECT 01 — Ihsan Global Qur’an Academy
+Learn the Qur’an. Understand its Message. Live Its Guidance.
+[Heading3] Programs
+[ListBullet] Qur’an Reading
+[ListBullet] Qur’an Recitation
+[ListBullet] Tajweed
+[ListBullet] Hifz
+[ListBullet] Hifz Revision
+[ListBullet] Lisan-ul-Qur’an
+[ListBullet] Qur’anic Sciences
+[ListBullet] Tafseer
+[ListBullet] Seerah 
+[ListBullet] Fiqh
+[ListBullet] Character Development
+Each component can later open into detailed content.
+
+05 — WHO IS IT FOR?
+Target Audience
+Clearly identify the intended learners.
+Example:
+ChildrenTeensAdults
+Where appropriate, specify:
+{L0} Age group
+{L0} Educational background
+{L0} Family status
+{L0} Beginner / intermediate / advanced level
+{L0} Individual / family / educator
+
+06 — LEARNING JOURNEY
+Your Pathway
+Present the program as a visual step-by-step journey.
+Example:
+Foundation↓Understanding↓Practice↓Application↓Growth
+The stages should be customized for each program.
+
+07 — LEARNING OUTCOMES
+What Will Learners Develop?
+The outcomes should focus on development rather than simply listing subjects.
+Possible outcomes:
+{L0} Knowledge
+{L0} Understanding
+{L0} Character
+{L0} Critical Thinking
+{L0} Emotional Awareness
+{L0} Communication
+{L0} Life Skills
+{L0} Practical Skills
+{L0} Leadership
+{L0} Social Responsibility
+
+08 — METHODOLOGY
+How Will Learning Take Place?
+Possible learning methods include:
+{L0} Online Classes
+{L0} Interactive Sessions
+{L0} Discussions
+{L0} Activities
+{L0} Projects
+{L0} Reflection
+{L0} Case Studies
+{L0} Practical Exercises
+{L0} Group Work
+{L0} Assessments
+{L0} Mentoring
+The exact methodology should be customized according to each program.
+
+09 — PROGRAM STRUCTURE
+Program Information
+Display practical information in a simple visual format.
+Duration
+[Insert Duration]
+Levels
+[Insert Number of Levels]
+Sessions
+[Insert Session Information]
+Schedule
+[Insert Schedule]
+Mode
+Online / On-site / Hybrid
+Language
+[Insert Language]
+Fee
+[Insert Fee]
+
+10 — ELIGIBILITY
+Who Can Join?
+Explain:
+{L0} Age requirements
+{L0} Background requirements
+{L0} Previous learning requirements
+{L0} Registration requirements
+If there are no specific requirements:
+No previous experience is required.
+
+11 — FREQUENTLY ASKED QUESTIONS
+FAQs
+Use 5–8 questions specific to each program.
+Example:
+Who is this program for?
+[Answer]
+How long is the program?
+[Answer]
+Is the program online or on-site?
+[Answer]
+What language is used?
+[Answer]
+Do I need previous knowledge?
+[Answer]
+How can I register?
+[Answer]
+
+12 — JOIN / REGISTER
+Begin Your Journey
+Take the next step toward knowledge, growth, character, and meaningful development.
+Primary Button:
+REGISTER NOW
+Secondary Button:
+CONTACT US
+
+06 — PROGRAM CONTENT DEVELOPMENT SHEET
+Before adding any new program to the website, prepare the following information.
+=== TABLE START ===
+CONTENT FIELD | REQUIRED INFORMATION
+Program Name | Official program name
+One-Line Identity | What is the program?
+Introduction | 100–150 words
+Need | Why is the program necessary?
+Vision | What change does it seek to support?
+Objectives | 4–6 key objectives
+Framework | Educational model/pathway
+Curriculum | What will be taught?
+Methodology | How will learning take place?
+Target Audience | Who is it for?
+Learning Journey | Step-by-step pathway
+Outcomes | What will learners develop?
+Duration | Program length
+Levels | Number of levels
+Schedule | Class/session schedule
+Fee | Program fee
+Eligibility | Who can join?
+FAQs | 5–8 questions
+Registration | Registration process
+=== TABLE END ===
+
+07 — CORE PROGRAMS
+A. QUR’AN ONLINE ACADEMY
+Identity
+Qur’an-Centred Foundational Learning
+Core Areas
+Qur’an • Arabic • Sunnah • Understanding • Reflection • Tarbiyah
+Role Within Ehsaan Global
+The Qur’an Online Academy serves as an initial implementation of the Ehsaan Global educational vision by establishing a Qur’an-centred foundation for lifelong learning.
+Suggested Learning Journey
+Qur’an Reading↓Correct Recitation↓Understanding↓Reflection↓Application↓Character & Tarbiyah
+
+B. SEERAH & TARBIYAH FOR KIDS
+Identity
+Character Development Through Seerah
+Core Areas
+Seerah • Akhlaq • Tazkiyah • Emotional Development • Life Skills
+Target Age
+5–12 Years
+13-18
+
+Purpose
+To provide children with an engaging and meaningful learning environment where the Seerah of Prophet Muhammad ﷺ becomes a source of character development, values, emotional awareness, and practical life learning.
+Suggested Learning Journey
+Know the Seerah↓Understand the Values↓Reflect↓Practice↓Develop Character
+
+C. HUMSAFAR
+Identity
+Family & Relationship Education
+Core Areas
+Pre-Marriage • Marriage • Communication • Conflict Resolution • Family Life • Parenting
+Purpose
+Humsafar provides an educational pathway for individuals and families to develop knowledge, emotional maturity, communication skills, relationship awareness, and responsible family practices.
+Role Within Ehsaan Global
+Humsafar creates a bridge between individual development and family development.
+Suggested Journey
+Self-Awareness↓Pre-Marriage Preparation↓Marriage Education↓Communication↓Conflict Resolution↓Family Life↓Parenting
+
+D. SOCIAL AWARENESS & EDUCATIONAL REFORM
+Identity
+Education, Awareness & Social Responsibility
+Core Areas
+Education • Family • Youth • Character • Social Responsibility • Reform
+Purpose
+To extend individual and family development into broader social awareness by encouraging responsible education, character development, community participation, and constructive social contribution.
+Role Within Ehsaan Global
+This initiative connects:
+Individual Development↓Family Development↓Community Awareness↓Social Responsibility
+
+08 — WEBSITE CONTENT HIERARCHY
+The complete visitor journey should follow this structure:
+WHO ARE WE?
+Home
+↓
+WHAT DO WE BELIEVE?
+Vision & Mission
+↓
+HOW DO WE UNDERSTAND EDUCATION?
+Educational Philosophy
+↓
+WHAT IS OUR EDUCATIONAL MODEL?
+Holistic Education Framework
+↓
+WHAT ARE WE DOING?
+Our Initiatives
+↓
+HOW DOES EACH PROGRAM WORK?
+Program Detail Pages
+↓
+HOW CAN I PARTICIPATE?
+Registration / Join
+
+09 — MAIN WEBSITE NAVIGATION
+Recommended primary navigation:
+HOMEABOUT / OUR VISIONOUR FRAMEWORKOUR INITIATIVESPROGRAMSCONTACT
+Primary Header Button
+JOIN / REGISTER
+
+10 — SCALABILITY PRINCIPLE
+The website architecture should be designed so that additional programs can be added without changing the main website structure.
+For example:
+Individual
+{L0} Qur’an Online Academy
+{L0} Seerah & Tarbiyah for Kids
+{L0} Future Individual Development Programs
+Education
+{L0} Holistic Education Framework
+{L0} Teacher Training
+{L0} Future Educational Initiatives
+Family
+{L0} Humsafar
+{L0} Parenting Education
+{L0} Future Family Programs
+Society
+{L0} Social Awareness
+{L0} Educational Reform
+{L0} Community Development
+{L0} Future Social Initiatives
+The architecture remains unchanged.
+Only new program content is added.
+
+11 — DESIGNER'S CONTENT PRINCIPLE
+The website should communicate one continuous story rather than appearing as a collection of unrelated projects.
+The Story:
+Vision
+We envision a Qur’an-centred model of human development.
+↓
+Philosophy
+Education should connect knowledge with purpose, character, skills, family, and society.
+↓
+Framework
+Our Holistic Education Framework provides the broader educational model.
+↓
+Initiatives
+Our initiatives apply this vision to different stages and dimensions of life.
+↓
+Programs
+Each program provides a practical pathway for learning and development.
+↓
+Participation
+Visitors can explore, learn, join, and contribute.
+
+12 — CONTENT RULE FOR THE DESIGN TEAM
+HOME PAGE
+Keep content concise.
+Show:
+{L0} Vision
+{L0} Core philosophy
+{L0} Framework
+{L0} Initiative categories
+{L0} Short program introductions
+{L0} Clear calls to action
+INDIVIDUAL PROGRAM PAGES
+Place detailed information here:
+{L0} Introduction
+{L0} Need
+{L0} Objectives
+{L0} Framework
+{L0} Curriculum
+{L0} Methodology
+{L0} Audience
+{L0} Learning Journey
+{L0} Outcomes
+{L0} Structure
+{L0} FAQs
+{L0} Registration
+IMPORTANT
+Do not overload the Home Page with detailed program information.
+The Home Page should create clarity, identity, and curiosity.
+The Individual Program Pages should provide depth, information, and action.
+
+FINAL WEBSITE FLOW
+EHSAAN GLOBAL
+Qur’an-Centred Education, Human Development & Social Reform
+↓
+OUR VISION
+Why we exist.
+↓
+OUR PHILOSOPHY
+What we believe about education and human development.
+↓
+OUR HOLISTIC EDUCATION FRAMEWORK
+How we connect Qur’an, knowledge, tarbiyah, skills, family, and society.
+↓
+OUR INITIATIVES
+Where the vision is being applied.
+↓
+PROGRAM DETAILS
+How each initiative works.
+↓
+LEARNING JOURNEY
+How a participant develops.
+↓
+JOIN
+How people can participate.
+
+DESIGNER'S CORE MESSAGE
+One Vision.One Integrated Educational Philosophy.Multiple Initiatives.Clear Learning Journeys.One Connected Human Development Model.
+

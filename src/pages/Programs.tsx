@@ -6,7 +6,7 @@ import { programs } from '../data/programs'
 export default function Programs() {
   return (
     <section className="relative isolate overflow-hidden bg-ivory pb-16 pt-24 md:pb-24 md:pt-28">
-      <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[680px] bg-[radial-gradient(ellipse_at_top,rgba(201,164,92,0.13),transparent_68%)]" />
+      <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[680px] bg-[radial-gradient(ellipse_at_top,rgba(115, 81, 178,0.13),transparent_68%)]" />
       <div aria-hidden className="pattern-arabesque pointer-events-none absolute -right-48 top-20 -z-10 h-[36rem] w-[36rem] rotate-12 opacity-[0.055]" />
       <div className="shell">
         <div className="mx-auto max-w-3xl text-center">

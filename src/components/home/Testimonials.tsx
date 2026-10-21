@@ -26,7 +26,7 @@ export function Testimonials() {
             <div className="relative">
               <div
                 aria-hidden
-                className="absolute -left-6 -top-6 h-32 w-32 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(201,164,92,0.28),transparent_70%)] blur-xl"
+                className="absolute -left-6 -top-6 h-32 w-32 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(115, 81, 178,0.28),transparent_70%)] blur-xl"
               />
               <Quote className="h-10 w-10 text-gold/60" strokeWidth={1.2} />
               <blockquote className="mt-7 font-display text-[1.7rem] leading-[1.42] text-forest md:text-[2.15rem]">
@@ -37,7 +37,7 @@ export function Testimonials() {
               <figcaption className="mt-9 flex items-center gap-4">
                 <span
                   aria-hidden
-                  className="inline-flex h-14 w-14 items-center justify-center rounded-full border border-gold/35 bg-[linear-gradient(150deg,#dde9de,#c3d5c6)] font-display text-[1.1rem] text-forest"
+                  className="inline-flex h-14 w-14 items-center justify-center rounded-full border border-gold/35 bg-[linear-gradient(150deg,#E8E6F8,#D4D0F0)] font-display text-[1.1rem] text-forest"
                 >
                   AR
                 </span>
@@ -64,7 +64,7 @@ export function Testimonials() {
               </Reveal>
             ))}
             <Reveal delay={0.16} direction="right" className="sm:col-span-2">
-              <div className="flex items-center justify-between gap-6 rounded-[26px] border border-forest/8 bg-[linear-gradient(120deg,#063f32,#0b5a46)] px-7 py-6">
+              <div className="flex items-center justify-between gap-6 rounded-[26px] border border-forest/8 bg-[linear-gradient(120deg,#642E7C,#7351B2)] px-7 py-6">
                 <div>
                   <p className="font-display text-[1.3rem] text-cream">
                     4.9 average learner rating

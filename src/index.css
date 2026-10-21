@@ -2,36 +2,46 @@
 
 /* ==========================================================================
    IHSAN GLOBAL QURAN ACADEMY — DESIGN TOKENS
-   Deep Islamic green · warm ivory · soft gold · sage
+   Aqua · Mist Blue · Periwinkle · Royal Purple · Deep Plum
    ========================================================================== */
 @theme {
-  --color-forest: #063f32;
-  --color-forest-deep: #042b22;
-  --color-forest-soft: #0b5a46;
-  --color-forest-mist: #137260;
+  --color-aqua-light: #8ce2ef;
+  --color-mist-blue: #94bae1;
+  --color-periwinkle: #8984d8;
+  --color-royal-purple: #7351b2;
+  --color-deep-plum: #642e7c;
 
-  --color-sage: #dde9de;
-  --color-sage-deep: #c3d5c6;
-  --color-cream: #f8f4ea;
-  --color-beige: #ede5d5;
-  --color-ivory: #f7f8f3;
+  --color-forest: #642e7c;
+  --color-forest-deep: #3f1a54;
+  --color-forest-soft: #7351b2;
+  --color-forest-mist: #8984d8;
+
+  --color-sage: #e8e6f8;
+  --color-sage-deep: #d4d0f0;
+  --color-cream: #f0eefa;
+  --color-beige: #e4e0f5;
+  --color-ivory: #f7fbff;
   --color-white: #ffffff;
 
-  --color-gold: #c9a45c;
-  --color-gold-light: #e5c985;
-  --color-gold-deep: #a8842f;
+  --color-gold: #7351b2;
+  --color-gold-light: #8984d8;
+  --color-gold-deep: #5a3a96;
 
-  --color-ink: #10221d;
-  --color-muted: #53645e;
+  --color-heading-navy: #221f4d;
+  --color-bg-soft: #f7fbff;
+  --color-border-line: #d8d2f0;
+
+  --color-ink: #221f4d;
+  --color-muted: #5b5780;
 
   --font-display: 'Playfair Display', 'Iowan Old Style', 'Times New Roman', serif;
   --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
   --font-arabic: 'Amiri', 'Playfair Display', serif;
 
   --radius-arch: 999px 999px 28px 28px;
-  --shadow-soft: 0 1px 2px rgba(6, 63, 50, 0.04), 0 12px 34px -18px rgba(6, 63, 50, 0.22);
-  --shadow-lift: 0 2px 6px rgba(6, 63, 50, 0.05), 0 30px 60px -28px rgba(6, 63, 50, 0.3);
-  --shadow-glow: 0 40px 90px -40px rgba(201, 164, 92, 0.55);
+  --shadow-soft: 0 1px 2px rgba(100, 46, 124, 0.04), 0 12px 34px -18px rgba(100, 46, 124, 0.22);
+  --shadow-lift: 0 2px 6px rgba(100, 46, 124, 0.05), 0 30px 60px -28px rgba(100, 46, 124, 0.3);
+  --shadow-glow: 0 40px 90px -40px rgba(137, 132, 216, 0.55);
 
   --ease-silk: cubic-bezier(0.22, 1, 0.36, 1);
 }
@@ -66,7 +76,7 @@
   h3,
   h4 {
     font-family: var(--font-display);
-    color: var(--color-forest);
+    color: var(--color-heading-navy);
     font-weight: 500;
     letter-spacing: -0.02em;
     line-height: 1.08;
@@ -78,12 +88,12 @@
   }
 
   ::selection {
-    background: color-mix(in srgb, var(--color-gold) 34%, transparent);
-    color: var(--color-forest);
+    background: color-mix(in srgb, var(--color-periwinkle) 34%, transparent);
+    color: var(--color-heading-navy);
   }
 
   :focus-visible {
-    outline: 2px solid var(--color-gold);
+    outline: 2px solid var(--color-periwinkle);
     outline-offset: 3px;
     border-radius: 6px;
   }
@@ -96,12 +106,12 @@
     background: var(--color-cream);
   }
   ::-webkit-scrollbar-thumb {
-    background: color-mix(in srgb, var(--color-forest) 35%, var(--color-sage));
+    background: color-mix(in srgb, var(--color-royal-purple) 35%, var(--color-sage));
     border-radius: 999px;
     border: 3px solid var(--color-cream);
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--color-forest-soft);
+    background: var(--color-royal-purple);
   }
 
   ::placeholder {
@@ -189,13 +199,13 @@
   .gold-rule {
     height: 1px;
     width: 64px;
-    background: linear-gradient(90deg, var(--color-gold), transparent);
+    background: linear-gradient(90deg, var(--color-periwinkle), transparent);
   }
 
   /* --- surfaces --------------------------------------------------------- */
   .surface {
     background: var(--color-white);
-    border: 1px solid color-mix(in srgb, var(--color-forest) 8%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-royal-purple) 10%, transparent);
     box-shadow: var(--shadow-soft);
   }
 
@@ -211,22 +221,22 @@
   }
 
   .hairline {
-    border-color: color-mix(in srgb, var(--color-gold) 30%, transparent);
+    border-color: color-mix(in srgb, var(--color-periwinkle) 30%, transparent);
   }
 
   /* --- patterns --------------------------------------------------------- */
   .pattern-grid {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill='none' stroke='%23063F32' stroke-width='0.6'%3E%3Cpath d='M30 4l7.5 18.5L56 30l-18.5 7.5L30 56l-7.5-18.5L4 30l18.5-7.5z'/%3E%3Ccircle cx='30' cy='30' r='5.5'/%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill='none' stroke='%23642E7C' stroke-width='0.6'%3E%3Cpath d='M30 4l7.5 18.5L56 30l-18.5 7.5L30 56l-7.5-18.5L4 30l18.5-7.5z'/%3E%3Ccircle cx='30' cy='30' r='5.5'/%3E%3C/g%3E%3C/svg%3E");
     background-size: 60px 60px;
   }
 
   .pattern-stars {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='%23C9A45C' stroke-width='0.7'%3E%3Cpath d='M40 6l9.6 15.4L68 15l-6.4 18.4L80 40l-18.4 6.6L68 65l-18.4-6.4L40 74l-9.6-15.4L12 65l6.4-18.4L0 40l18.4-6.6L12 15l18.4 6.4z'/%3E%3Crect x='26' y='26' width='28' height='28' transform='rotate(45 40 40)'/%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='%237351B2' stroke-width='0.7'%3E%3Cpath d='M40 6l9.6 15.4L68 15l-6.4 18.4L80 40l-18.4 6.6L68 65l-18.4-6.4L40 74l-9.6-15.4L12 65l6.4-18.4L0 40l18.4-6.6L12 15l18.4 6.4z'/%3E%3Crect x='26' y='26' width='28' height='28' transform='rotate(45 40 40)'/%3E%3C/g%3E%3C/svg%3E");
     background-size: 80px 80px;
   }
 
   .pattern-arabesque {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%23E5C985' stroke-width='0.6'%3E%3Cpath d='M60 0c0 33 27 60 60 60-33 0-60 27-60 60 0-33-27-60-60-60 33 0 60-27 60-60z'/%3E%3Ccircle cx='60' cy='60' r='26'/%3E%3Ccircle cx='0' cy='0' r='18'/%3E%3Ccircle cx='120' cy='0' r='18'/%3E%3Ccircle cx='0' cy='120' r='18'/%3E%3Ccircle cx='120' cy='120' r='18'/%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%238984D8' stroke-width='0.6'%3E%3Cpath d='M60 0c0 33 27 60 60 60-33 0-60 27-60 60 0-33-27-60-60-60 33 0 60-27 60-60z'/%3E%3Ccircle cx='60' cy='60' r='26'/%3E%3Ccircle cx='0' cy='0' r='18'/%3E%3Ccircle cx='120' cy='0' r='18'/%3E%3Ccircle cx='0' cy='120' r='18'/%3E%3Ccircle cx='120' cy='120' r='18'/%3E%3C/g%3E%3C/svg%3E");
     background-size: 120px 120px;
   }
 
@@ -247,7 +257,7 @@
     background: linear-gradient(
       90deg,
       transparent,
-      color-mix(in srgb, var(--color-gold) 55%, transparent),
+      color-mix(in srgb, var(--color-periwinkle) 55%, transparent),
       transparent
     );
   }

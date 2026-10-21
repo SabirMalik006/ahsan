@@ -40,8 +40,8 @@ function NodeDot({ x, at, progress }: { x: number; at: number; progress: MotionV
 
   return (
     <motion.g style={{ opacity }}>
-      <circle cx={x} cy={MID_Y} r={12} fill="none" stroke="#E5C985" strokeWidth={1} />
-      <circle cx={x} cy={MID_Y} r={5.5} fill="#C9A45C" />
+      <circle cx={x} cy={MID_Y} r={12} fill="none" stroke="#8984D8" strokeWidth={1} />
+      <circle cx={x} cy={MID_Y} r={5.5} fill="#7351B2" />
     </motion.g>
   )
 }
@@ -64,7 +64,7 @@ export function LearningJourney() {
     <section id="journey" className="section-y relative overflow-hidden bg-cream">
       <div className="pattern-grid absolute inset-0 opacity-[0.04]" aria-hidden />
       <div
-        className="absolute inset-x-0 top-0 h-56 bg-[radial-gradient(60%_100%_at_50%_0%,rgba(221,233,222,0.9),transparent_70%)]"
+        className="absolute inset-x-0 top-0 h-56 bg-[radial-gradient(60%_100%_at_50%_0%,rgba(232, 230, 248,0.9),transparent_70%)]"
         aria-hidden
       />
 
@@ -123,7 +123,7 @@ export function LearningJourney() {
                 <path
                   d={journeyPath}
                   fill="none"
-                  stroke="#063F32"
+                  stroke="#642E7C"
                   strokeOpacity={0.12}
                   strokeWidth={1.4}
                   strokeDasharray="6 8"
@@ -141,9 +141,9 @@ export function LearningJourney() {
                 />
                 <defs>
                   <linearGradient id="journey-gradient" x1="0" y1="0" x2="1" y2="0">
-                    <stop offset="0%" stopColor="#0B5A46" />
-                    <stop offset="55%" stopColor="#C9A45C" />
-                    <stop offset="100%" stopColor="#E5C985" />
+                    <stop offset="0%" stopColor="#7351B2" />
+                    <stop offset="55%" stopColor="#7351B2" />
+                    <stop offset="100%" stopColor="#8984D8" />
                   </linearGradient>
                 </defs>
                 {journeyStages.map((stage, i) => (
@@ -168,7 +168,7 @@ export function LearningJourney() {
                     className="group relative shrink-0 snap-start"
                     style={{ width: CARD_W }}
                   >
-                    <div className="relative flex h-full flex-col rounded-[26px] border border-forest/8 bg-white/85 p-6 backdrop-blur-sm transition-all duration-[600ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-1.5 group-hover:border-gold/40 group-hover:shadow-[0_34px_60px_-34px_rgba(6,63,50,0.45)]">
+                    <div className="relative flex h-full flex-col rounded-[26px] border border-forest/8 bg-white/85 p-6 backdrop-blur-sm transition-all duration-[600ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-1.5 group-hover:border-gold/40 group-hover:shadow-[0_34px_60px_-34px_rgba(100, 46, 124,0.45)]">
                       <div className="pattern-arabesque absolute inset-0 rounded-[26px] opacity-0 transition-opacity duration-700 group-hover:opacity-[0.07]" />
 
                       <div className="relative flex items-start justify-between">

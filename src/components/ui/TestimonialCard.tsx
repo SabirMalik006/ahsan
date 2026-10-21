@@ -6,7 +6,7 @@ function Avatar({ name }: { name: string }) {
   return (
     <span
       aria-hidden
-      className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-gold/35 bg-[linear-gradient(150deg,#dde9de,#c3d5c6)] font-display text-[0.95rem] text-forest"
+      className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-gold/35 bg-[linear-gradient(150deg,#E8E6F8,#D4D0F0)] font-display text-[0.95rem] text-forest"
       title={name}
     >
       {name
@@ -27,7 +27,7 @@ export function TestimonialCard({
 }) {
   return (
     <figure
-      className={`group relative flex h-full flex-col rounded-[26px] border border-forest/8 bg-white p-7 transition-all duration-[650ms] ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1 hover:border-gold/35 hover:shadow-[0_36px_66px_-40px_rgba(6,63,50,0.4)] ${className}`}
+      className={`group relative flex h-full flex-col rounded-[26px] border border-forest/8 bg-white p-7 transition-all duration-[650ms] ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1 hover:border-gold/35 hover:shadow-[0_36px_66px_-40px_rgba(100, 46, 124,0.4)] ${className}`}
     >
       <span
         aria-hidden
@@ -71,7 +71,7 @@ export function FloatingTestimonial({
   return (
     <figure
       style={style}
-      className={`w-[270px] rounded-2xl border border-white/50 bg-white/92 p-4 shadow-[0_30px_60px_-36px_rgba(6,63,50,0.55)] backdrop-blur-lg ${className}`}
+      className={`w-[270px] rounded-2xl border border-white/50 bg-white/92 p-4 shadow-[0_30px_60px_-36px_rgba(100, 46, 124,0.55)] backdrop-blur-lg ${className}`}
     >
       <div className="flex items-center gap-3">
         <Avatar name={testimonial.name} />

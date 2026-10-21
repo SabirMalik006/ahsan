@@ -19,7 +19,7 @@ export function Footer() {
     <footer id="footer" className="relative overflow-hidden bg-forest-deep text-cream">
       <div className="pattern-stars absolute inset-0 opacity-[0.12]" aria-hidden />
       <div
-        className="absolute inset-x-0 top-0 h-[380px] bg-[radial-gradient(60%_100%_at_50%_0%,rgba(11,90,70,0.75),transparent_75%)]"
+        className="absolute inset-x-0 top-0 h-[380px] bg-[radial-gradient(60%_100%_at_50%_0%,rgba(115, 81, 178,0.75),transparent_75%)]"
         aria-hidden
       />
       <Particles count={16} tone="cream" className="opacity-60" />

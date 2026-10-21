@@ -6,7 +6,7 @@ import { visionContent } from '../data/vision'
 export default function AboutVision() {
   return (
     <section className="relative overflow-hidden bg-ivory pt-28 md:pt-36">
-      <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[120vh] bg-[radial-gradient(circle_at_top,rgba(201,164,92,0.12),transparent_70%)]" />
+      <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[120vh] bg-[radial-gradient(circle_at_top,rgba(115, 81, 178,0.12),transparent_70%)]" />
       <div aria-hidden className="pattern-arabesque pointer-events-none absolute -top-40 right-[-10%] -z-10 h-[40rem] w-[40rem] rotate-12 opacity-[0.08]" />
       <div className="shell section-y">
         <div className="mx-auto max-w-4xl text-center">

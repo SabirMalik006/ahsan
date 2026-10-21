@@ -22,9 +22,9 @@ function Flare({ className = '' }: { className?: string }) {
    ========================================================================== */
 export function SceneQuran() {
   return (
-    <div className="relative h-full w-full overflow-hidden bg-[linear-gradient(165deg,#042b22_0%,#063f32_46%,#0b5a46_100%)]">
+    <div className="relative h-full w-full overflow-hidden bg-[linear-gradient(165deg,#3F1A54_0%,#642E7C_46%,#7351B2_100%)]">
       {/* light entering from above */}
-      <div className="absolute inset-0 bg-[radial-gradient(58%_42%_at_50%_6%,rgba(229,201,133,0.42),transparent_72%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(58%_42%_at_50%_6%,rgba(137, 132, 216,0.42),transparent_72%)]" />
       <Flare className="left-1/2 top-[-6%] h-[46%] w-[70%] -translate-x-1/2 bg-gold-light/25" />
 
       {/* architectural arch */}
@@ -48,8 +48,8 @@ export function SceneQuran() {
               style={{
                 backgroundImage:
                   side === 'left'
-                    ? 'linear-gradient(100deg,#f2ead9 0%,#f8f4ea 62%,#e6dcc6 100%)'
-                    : 'linear-gradient(260deg,#f2ead9 0%,#f8f4ea 62%,#e6dcc6 100%)',
+                    ? 'linear-gradient(100deg,#ECE8F8 0%,#F0EEFA 62%,#D8D2F0 100%)'
+                    : 'linear-gradient(260deg,#ECE8F8 0%,#F0EEFA 62%,#D8D2F0 100%)',
               }}
             >
               {/* manuscript ruling */}
@@ -57,7 +57,7 @@ export function SceneQuran() {
                 className="absolute inset-x-[14%] inset-y-[16%] opacity-[0.5]"
                 style={{
                   backgroundImage:
-                    'repeating-linear-gradient(to bottom, rgba(16,34,29,0.14) 0 1px, transparent 1px 10px)',
+                    'repeating-linear-gradient(to bottom, rgba(34, 31, 77,0.14) 0 1px, transparent 1px 10px)',
                   maskImage: 'linear-gradient(to bottom, #000 72%, transparent)',
                 }}
               />
@@ -74,8 +74,8 @@ export function SceneQuran() {
               <div
                 className={`absolute inset-y-0 w-[26%] ${
                   side === 'left'
-                    ? 'right-0 bg-[linear-gradient(270deg,rgba(6,63,50,0.22),transparent)]'
-                    : 'left-0 bg-[linear-gradient(90deg,rgba(6,63,50,0.22),transparent)]'
+                    ? 'right-0 bg-[linear-gradient(270deg,rgba(100, 46, 124,0.22),transparent)]'
+                    : 'left-0 bg-[linear-gradient(90deg,rgba(100, 46, 124,0.22),transparent)]'
                 }`}
               />
             </div>
@@ -98,19 +98,19 @@ export function SceneQuran() {
    ========================================================================== */
 export function SceneLibrary() {
   return (
-    <div className="relative h-full w-full overflow-hidden bg-[linear-gradient(200deg,#f8f4ea_0%,#ede5d5_46%,#dde9de_100%)]">
+    <div className="relative h-full w-full overflow-hidden bg-[linear-gradient(200deg,#F0EEFA_0%,#E4E0F5_46%,#E8E6F8_100%)]">
       {/* window light shaft */}
-      <div className="absolute -left-[10%] top-[-30%] h-[150%] w-[52%] rotate-[16deg] bg-[linear-gradient(90deg,rgba(255,255,255,0.85),rgba(229,201,133,0.22),transparent)] blur-[2px]" />
+      <div className="absolute -left-[10%] top-[-30%] h-[150%] w-[52%] rotate-[16deg] bg-[linear-gradient(90deg,rgba(255,255,255,0.85),rgba(137, 132, 216,0.22),transparent)] blur-[2px]" />
 
       {/* deep green architectural panel */}
-      <div className="absolute right-0 top-0 h-full w-[38%] bg-[linear-gradient(190deg,#063f32,#0b5a46)]">
+      <div className="absolute right-0 top-0 h-full w-[38%] bg-[linear-gradient(190deg,#642E7C,#7351B2)]">
         <div className="pattern-stars absolute inset-0 opacity-[0.16]" />
         <ArchOutline className="absolute inset-x-[18%] top-[12%] h-[54%] text-gold-light/35" strokeWidth={1} />
-        <div className="absolute inset-x-[18%] top-[12%] h-[54%] rounded-arch bg-[radial-gradient(70%_60%_at_50%_30%,rgba(229,201,133,0.35),transparent)]" />
+        <div className="absolute inset-x-[18%] top-[12%] h-[54%] rounded-arch bg-[radial-gradient(70%_60%_at_50%_30%,rgba(137, 132, 216,0.35),transparent)]" />
       </div>
 
       {/* desk surface */}
-      <div className="absolute inset-x-0 bottom-0 h-[38%] bg-[linear-gradient(180deg,#b99b6b_0%,#8f7346_38%,#6d5734_100%)]">
+      <div className="absolute inset-x-0 bottom-0 h-[38%] bg-[linear-gradient(180deg,#A78BD8_0%,#8984D8_38%,#7351B2_100%)]">
         <div className="absolute inset-x-0 top-0 h-[3px] bg-gold-light/50" />
         <div className="anim-shimmer absolute inset-x-0 top-0 h-full bg-[linear-gradient(100deg,transparent_40%,rgba(255,255,255,0.28)_50%,transparent_60%)]" />
       </div>
@@ -118,14 +118,14 @@ export function SceneLibrary() {
       {/* stack of classical books */}
       <div className="absolute bottom-[38%] left-[8%] w-[38%] space-y-[3px]">
         {[
-          { w: '92%', h: 'h-3.5', c: 'from-[#0b5a46] to-[#063f32]' },
-          { w: '84%', h: 'h-3', c: 'from-[#8f7346] to-[#6d5734]' },
-          { w: '96%', h: 'h-4', c: 'from-[#f8f4ea] to-[#e6dcc6]' },
-          { w: '88%', h: 'h-3', c: 'from-[#137260] to-[#0b5a46]' },
+          { w: '92%', h: 'h-3.5', c: 'from-[#7351B2] to-[#642E7C]' },
+          { w: '84%', h: 'h-3', c: 'from-[#8984D8] to-[#7351B2]' },
+          { w: '96%', h: 'h-4', c: 'from-[#F0EEFA] to-[#D8D2F0]' },
+          { w: '88%', h: 'h-3', c: 'from-[#8984D8] to-[#7351B2]' },
         ].map((b, i) => (
           <div
             key={i}
-            className={`${b.h} rounded-[3px] bg-gradient-to-r ${b.c} shadow-[0_8px_18px_-12px_rgba(6,63,50,0.9)]`}
+            className={`${b.h} rounded-[3px] bg-gradient-to-r ${b.c} shadow-[0_8px_18px_-12px_rgba(100, 46, 124,0.9)]`}
             style={{ width: b.w, marginLeft: i % 2 === 0 ? 0 : '6%' }}
           />
         ))}
@@ -135,7 +135,7 @@ export function SceneLibrary() {
             className="absolute inset-2 opacity-60"
             style={{
               backgroundImage:
-                'repeating-linear-gradient(to bottom, rgba(16,34,29,0.16) 0 1px, transparent 1px 8px)',
+                'repeating-linear-gradient(to bottom, rgba(34, 31, 77,0.16) 0 1px, transparent 1px 8px)',
             }}
           />
           <div className="absolute left-1/2 top-0 h-full w-px bg-forest/25" />
@@ -143,8 +143,8 @@ export function SceneLibrary() {
       </div>
 
       {/* modern tablet */}
-      <div className="absolute bottom-[40%] right-[9%] h-[30%] w-[30%] rotate-[-7deg] rounded-[16px] border border-white/25 bg-[linear-gradient(160deg,#0b1f1a,#04211a)] p-1.5 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.75)]">
-        <div className="relative h-full w-full overflow-hidden rounded-[12px] bg-[linear-gradient(160deg,rgba(11,90,70,0.9),rgba(4,33,26,1))] p-2.5">
+      <div className="absolute bottom-[40%] right-[9%] h-[30%] w-[30%] rotate-[-7deg] rounded-[16px] border border-white/25 bg-[linear-gradient(160deg,#2A1240,#1F0E30)] p-1.5 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.75)]">
+        <div className="relative h-full w-full overflow-hidden rounded-[12px] bg-[linear-gradient(160deg,rgba(115, 81, 178,0.9),rgba(63, 26, 84,1))] p-2.5">
           <div className="pattern-grid absolute inset-0 opacity-10" />
           <div className="h-[5px] w-[52%] rounded-full bg-gold-light/85" />
           <div className="mt-2.5 space-y-[5px]">
@@ -158,7 +158,7 @@ export function SceneLibrary() {
       </div>
 
       {/* floating manuscript chip */}
-      <div className="anim-float absolute left-[52%] top-[16%] w-[30%] rotate-[5deg] rounded-xl border border-white/60 bg-white/85 p-3 shadow-[0_24px_48px_-26px_rgba(6,63,50,0.5)] backdrop-blur-sm">
+      <div className="anim-float absolute left-[52%] top-[16%] w-[30%] rotate-[5deg] rounded-xl border border-white/60 bg-white/85 p-3 shadow-[0_24px_48px_-26px_rgba(100, 46, 124,0.5)] backdrop-blur-sm">
         <div className="text-[9px] font-medium uppercase tracking-[0.22em] text-gold-deep">Isnād</div>
         <div className="mt-2 space-y-[5px]">
           <div className="h-[3px] w-full rounded-full bg-forest/15" />
@@ -177,8 +177,8 @@ export function SceneLibrary() {
    ========================================================================== */
 export function SceneFamily() {
   return (
-    <div className="relative h-full w-full overflow-hidden bg-[linear-gradient(180deg,#04241c_0%,#063f32_55%,#0b5a46_100%)]">
-      <div className="absolute inset-0 bg-[radial-gradient(52%_46%_at_50%_96%,rgba(229,201,133,0.4),transparent_70%)]" />
+    <div className="relative h-full w-full overflow-hidden bg-[linear-gradient(180deg,#3F1A54_0%,#642E7C_55%,#7351B2_100%)]">
+      <div className="absolute inset-0 bg-[radial-gradient(52%_46%_at_50%_96%,rgba(137, 132, 216,0.4),transparent_70%)]" />
       <Flare className="bottom-[6%] left-1/2 h-[44%] w-[76%] -translate-x-1/2 bg-gold-light/22" />
 
       {/* concentric courtyard arches */}

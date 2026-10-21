@@ -7,9 +7,9 @@ function PortraitFrame({ seed, name }: { seed: number; name: string }) {
   const tilt = seed % 2 === 0 ? 1 : -1
 
   return (
-    <div className="relative h-full w-full bg-[linear-gradient(170deg,#063f32_0%,#0b5a46_60%,#137260_100%)]">
+    <div className="relative h-full w-full bg-[linear-gradient(170deg,#642E7C_0%,#7351B2_60%,#8984D8_100%)]">
       <div className="pattern-stars absolute inset-0 opacity-[0.16]" />
-      <div className="absolute inset-0 bg-[radial-gradient(60%_50%_at_50%_20%,rgba(229,201,133,0.32),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(60%_50%_at_50%_20%,rgba(137, 132, 216,0.32),transparent_70%)]" />
       <ArchOutline className="absolute inset-x-[14%] top-[10%] h-[80%] text-gold-light/35" strokeWidth={1} />
 
       <svg
@@ -36,7 +36,7 @@ function PortraitFrame({ seed, name }: { seed: number; name: string }) {
 export function ScholarCard({ scholar }: { scholar: Scholar }) {
   return (
     <article className="group relative">
-      <div className="relative aspect-[3/4] overflow-hidden rounded-[26px] rounded-t-[140px] border border-forest/10 shadow-[0_30px_60px_-40px_rgba(6,63,50,0.55)]">
+      <div className="relative aspect-[3/4] overflow-hidden rounded-[26px] rounded-t-[140px] border border-forest/10 shadow-[0_30px_60px_-40px_rgba(100, 46, 124,0.55)]">
         <div className="h-full w-full transition-transform duration-[1100ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.05]">
           <PortraitFrame seed={scholar.seed} name={scholar.name} />
         </div>

@@ -10,7 +10,7 @@ export function ProgramHero({ program }: { program: Program }) {
     <section className="relative overflow-hidden bg-ivory pt-28 md:pt-36">
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[120vh] bg-[radial-gradient(circle_at_top,rgba(201,164,92,0.12),transparent_70%)]"
+        className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[120vh] bg-[radial-gradient(circle_at_top,rgba(115, 81, 178,0.12),transparent_70%)]"
       />
       <div
         aria-hidden

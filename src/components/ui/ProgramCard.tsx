@@ -4,25 +4,25 @@ import { ArchOutline, EightStar } from './Ornaments'
 
 const tones: Record<Program['tone'], { bg: string; pattern: string; ink: string; accent: string }> = {
   forest: {
-    bg: 'bg-[linear-gradient(155deg,#042b22_0%,#063f32_55%,#0b5a46_100%)]',
+    bg: 'bg-[linear-gradient(155deg,#3F1A54_0%,#642E7C_55%,#7351B2_100%)]',
     pattern: 'pattern-stars opacity-[0.18]',
     ink: 'text-cream',
     accent: 'text-gold-light',
   },
   cream: {
-    bg: 'bg-[linear-gradient(155deg,#f8f4ea_0%,#ede5d5_100%)]',
+    bg: 'bg-[linear-gradient(155deg,#F0EEFA_0%,#E4E0F5_100%)]',
     pattern: 'pattern-grid opacity-[0.09]',
     ink: 'text-forest',
     accent: 'text-gold-deep',
   },
   sage: {
-    bg: 'bg-[linear-gradient(155deg,#dde9de_0%,#c3d5c6_100%)]',
+    bg: 'bg-[linear-gradient(155deg,#E8E6F8_0%,#D4D0F0_100%)]',
     pattern: 'pattern-arabesque opacity-[0.12]',
     ink: 'text-forest',
     accent: 'text-forest-soft',
   },
   gold: {
-    bg: 'bg-[linear-gradient(155deg,#e5c985_0%,#c9a45c_72%,#a8842f_100%)]',
+    bg: 'bg-[linear-gradient(155deg,#8984D8_0%,#7351B2_72%,#5A3A96_100%)]',
     pattern: 'pattern-grid opacity-[0.12]',
     ink: 'text-forest-deep',
     accent: 'text-forest',
@@ -56,7 +56,7 @@ function ProgramVisual({ tone }: { tone: Program['tone'] }) {
 
 export function ProgramCard({ program, large = false }: { program: Program; large?: boolean }) {
   return (
-    <article className="group relative flex h-full flex-col overflow-hidden rounded-[28px] border border-forest/8 bg-white transition-all duration-[650ms] ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1.5 hover:border-gold/35 hover:shadow-[0_44px_80px_-44px_rgba(6,63,50,0.45)]">
+    <article className="group relative flex h-full flex-col overflow-hidden rounded-[28px] border border-forest/8 bg-white transition-all duration-[650ms] ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1.5 hover:border-gold/35 hover:shadow-[0_44px_80px_-44px_rgba(100, 46, 124,0.45)]">
       <div
         className={
           large ? 'relative min-h-[240px] flex-1 overflow-hidden' : 'relative aspect-[16/11] overflow-hidden'

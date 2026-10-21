@@ -19,7 +19,7 @@ function DepthInstallation() {
         aria-hidden
       >
         {/* halo */}
-        <div className="absolute inset-[8%] rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(229,201,133,0.35),transparent_72%)] blur-2xl" />
+        <div className="absolute inset-[8%] rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,rgba(137, 132, 216,0.35),transparent_72%)] blur-2xl" />
 
         {/* rotating rosette layers at different depths */}
         <Rosette
@@ -60,22 +60,22 @@ function DepthInstallation() {
                 style={{
                   backgroundImage:
                     side === 'left'
-                      ? 'linear-gradient(100deg,#f2ead9,#f8f4ea_65%,#e6dcc6)'
-                      : 'linear-gradient(260deg,#f2ead9,#f8f4ea_65%,#e6dcc6)',
+                      ? 'linear-gradient(100deg,#ECE8F8,#F0EEFA_65%,#D8D2F0)'
+                      : 'linear-gradient(260deg,#ECE8F8,#F0EEFA_65%,#D8D2F0)',
                 }}
               >
                 <div
                   className="absolute inset-3 opacity-45"
                   style={{
                     backgroundImage:
-                      'repeating-linear-gradient(to bottom, rgba(16,34,29,0.16) 0 1px, transparent 1px 9px)',
+                      'repeating-linear-gradient(to bottom, rgba(34, 31, 77,0.16) 0 1px, transparent 1px 9px)',
                   }}
                 />
                 <div
                   className={`absolute inset-y-0 w-[24%] ${
                     side === 'left'
-                      ? 'right-0 bg-[linear-gradient(270deg,rgba(6,63,50,0.25),transparent)]'
-                      : 'left-0 bg-[linear-gradient(90deg,rgba(6,63,50,0.25),transparent)]'
+                      ? 'right-0 bg-[linear-gradient(270deg,rgba(100, 46, 124,0.25),transparent)]'
+                      : 'left-0 bg-[linear-gradient(90deg,rgba(100, 46, 124,0.25),transparent)]'
                   }`}
                 />
               </div>
@@ -110,9 +110,9 @@ export function ImmersiveFeature() {
     <section className="relative isolate overflow-hidden bg-forest-deep py-24 md:py-32">
       {/* deep green atmosphere */}
       <div aria-hidden className="absolute inset-0">
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,#042b22_0%,#063f32_48%,#042b22_100%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(55%_50%_at_78%_30%,rgba(11,90,70,0.85),transparent_70%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(40%_40%_at_12%_88%,rgba(201,164,92,0.18),transparent_70%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,#3F1A54_0%,#642E7C_48%,#3F1A54_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(55%_50%_at_78%_30%,rgba(115, 81, 178,0.85),transparent_70%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(40%_40%_at_12%_88%,rgba(115, 81, 178,0.18),transparent_70%)]" />
         <div className="pattern-grid absolute inset-0 opacity-[0.06]" />
         <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-cream/8 to-transparent" />
       </div>

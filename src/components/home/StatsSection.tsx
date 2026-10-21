@@ -8,7 +8,7 @@ export function StatsSection() {
       <div className="pattern-grid absolute inset-0 opacity-[0.04]" aria-hidden />
       <div
         aria-hidden
-        className="absolute inset-x-0 top-0 h-full bg-[radial-gradient(55%_120%_at_50%_-10%,rgba(221,233,222,0.9),transparent_70%)]"
+        className="absolute inset-x-0 top-0 h-full bg-[radial-gradient(55%_120%_at_50%_-10%,rgba(232, 230, 248,0.9),transparent_70%)]"
       />
 
       <div className="shell relative py-16 md:py-20">

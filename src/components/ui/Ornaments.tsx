@@ -121,7 +121,7 @@ export function Particles({
             height: d.size,
             opacity: d.opacity,
             background: tone === 'gold' ? 'var(--color-gold-light)' : 'var(--color-cream)',
-            boxShadow: tone === 'gold' ? '0 0 8px rgba(229,201,133,0.9)' : '0 0 8px rgba(248,244,234,0.8)',
+            boxShadow: tone === 'gold' ? '0 0 8px rgba(137, 132, 216,0.9)' : '0 0 8px rgba(240, 238, 250,0.8)',
             animation: `drift ${d.duration}s linear ${d.delay}s infinite`,
           }}
         />

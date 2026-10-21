@@ -19,7 +19,7 @@ export function CommunitySection() {
     <section id="community" className="section-y relative overflow-hidden bg-ivory">
       <div
         aria-hidden
-        className="absolute inset-x-0 top-1/4 h-96 bg-[radial-gradient(45%_60%_at_85%_50%,rgba(221,233,222,0.7),transparent_70%)]"
+        className="absolute inset-x-0 top-1/4 h-96 bg-[radial-gradient(45%_60%_at_85%_50%,rgba(232, 230, 248,0.7),transparent_70%)]"
       />
 
       <div className="shell relative">
@@ -44,7 +44,7 @@ export function CommunitySection() {
         {/* main visual with floating cards */}
         <div className="relative mt-16 md:mt-20">
           <Reveal direction="scale" duration={1}>
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[32px] border border-white/40 shadow-[0_60px_120px_-60px_rgba(6,63,50,0.55)] sm:aspect-[16/11] sm:rounded-[40px]">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[32px] border border-white/40 shadow-[0_60px_120px_-60px_rgba(100, 46, 124,0.55)] sm:aspect-[16/11] sm:rounded-[40px]">
               <SceneFamily />
               <div
                 aria-hidden

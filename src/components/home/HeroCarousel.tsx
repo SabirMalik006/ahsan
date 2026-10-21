@@ -89,10 +89,10 @@ export function HeroCarousel() {
     >
       {/* ================= premium background ================= */}
       <div aria-hidden className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,#F7F8F3_0%,#F8F4EA_56%,#F8F4EA_100%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(72%_54%_at_16%_4%,rgba(221,233,222,0.8),transparent_64%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(52%_46%_at_93%_86%,rgba(6,63,50,0.13),transparent_72%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(36%_28%_at_76%_0%,rgba(201,164,92,0.16),transparent_72%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,#F7FBFF_0%,#F0EEFA_56%,#F0EEFA_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(72%_54%_at_16%_4%,rgba(232, 230, 248,0.8),transparent_64%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(52%_46%_at_93%_86%,rgba(100, 46, 124,0.13),transparent_72%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(36%_28%_at_76%_0%,rgba(115, 81, 178,0.16),transparent_72%)]" />
         {/* barely-there geometry — texture, not noise */}
         <div className="pattern-grid absolute inset-0 opacity-[0.03]" />
         {/* dissolve into the cream section below */}
@@ -136,13 +136,13 @@ export function HeroCarousel() {
               className="absolute inset-0 blur-2xl"
               style={{
                 background:
-                  'linear-gradient(90deg, rgba(248,244,234,0) 0%, rgba(237,229,213,0.72) 30%, rgba(221,233,222,0.72) 50%, rgba(248,244,234,0.42) 70%, rgba(248,244,234,0) 100%)',
+                  'linear-gradient(90deg, rgba(240, 238, 250,0) 0%, rgba(228, 224, 245,0.72) 30%, rgba(232, 230, 248,0.72) 50%, rgba(240, 238, 250,0.42) 70%, rgba(240, 238, 250,0) 100%)',
                 maskImage: 'linear-gradient(180deg, transparent 0%, #000 24%, #000 76%, transparent 100%)',
                 WebkitMaskImage:
                   'linear-gradient(180deg, transparent 0%, #000 24%, #000 76%, transparent 100%)',
               }}
             />
-            <div className="anim-sheen absolute inset-0 blur-xl bg-[radial-gradient(44%_36%_at_50%_46%,rgba(201,164,92,0.32),transparent_72%)]" />
+            <div className="anim-sheen absolute inset-0 blur-xl bg-[radial-gradient(44%_36%_at_50%_46%,rgba(115, 81, 178,0.32),transparent_72%)]" />
           </div>
         </div>
 

@@ -46,7 +46,7 @@ export function Navbar() {
             aria-label="Primary"
             className={`mt-3 flex items-center justify-between gap-4 rounded-full border px-3 py-2.5 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] md:px-5 md:py-3 ${
               scrolled
-                ? ' border-royal-purple/8 bg-bg-soft shadow-[0_18px_40px_-28px_rgba(6,63,50,0.5)] backdrop-blur-xl backdrop-saturate-150'
+                ? ' border-royal-purple/8 bg-bg-soft shadow-[0_18px_40px_-28px_rgba(100, 46, 124,0.5)] backdrop-blur-xl backdrop-saturate-150'
                 : 'border-transparent bg-transparent'
             }`}
           >
@@ -137,7 +137,7 @@ export function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ duration: 0.55, ease: SILK }}
-              className="absolute inset-y-0 right-0 flex w-[86%] max-w-[400px] flex-col overflow-y-auto border-l  border-royal-purple/20 bg-bg-soft px-7 pb-10 pt-7 shadow-[-30px_0_70px_-40px_rgba(6,63,50,0.6)]"
+              className="absolute inset-y-0 right-0 flex w-[86%] max-w-[400px] flex-col overflow-y-auto border-l  border-royal-purple/20 bg-bg-soft px-7 pb-10 pt-7 shadow-[-30px_0_70px_-40px_rgba(100, 46, 124,0.6)]"
             >
               <div className="flex items-center justify-between">
                 <Wordmark />

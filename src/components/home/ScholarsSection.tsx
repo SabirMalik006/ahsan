@@ -11,7 +11,7 @@ export function ScholarsSection() {
     <section id="scholars" className="section-y relative overflow-hidden bg-ivory">
       <div
         aria-hidden
-        className="absolute inset-x-0 bottom-0 h-80 bg-[radial-gradient(50%_100%_at_20%_100%,rgba(221,233,222,0.85),transparent_70%)]"
+        className="absolute inset-x-0 bottom-0 h-80 bg-[radial-gradient(50%_100%_at_20%_100%,rgba(232, 230, 248,0.85),transparent_70%)]"
       />
 
       <div className="shell relative">

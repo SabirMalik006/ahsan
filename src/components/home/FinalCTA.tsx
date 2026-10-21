@@ -12,9 +12,9 @@ export function FinalCTA() {
     <section id="final-cta" className="relative isolate overflow-hidden bg-forest-deep">
       {/* atmosphere */}
       <div aria-hidden className="absolute inset-0">
-        <div className="absolute inset-0 bg-[linear-gradient(175deg,#042b22_0%,#063f32_52%,#0b5a46_100%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(52%_60%_at_50%_0%,rgba(229,201,133,0.22),transparent_70%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(46%_50%_at_10%_95%,rgba(19,114,96,0.6),transparent_72%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(175deg,#3F1A54_0%,#642E7C_52%,#7351B2_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(52%_60%_at_50%_0%,rgba(137, 132, 216,0.22),transparent_70%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(46%_50%_at_10%_95%,rgba(137, 132, 216,0.6),transparent_72%)]" />
         <div className="pattern-stars absolute inset-0 opacity-[0.14]" />
         <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold/50 to-transparent" />
       </div>

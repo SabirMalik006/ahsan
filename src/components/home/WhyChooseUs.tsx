@@ -21,7 +21,7 @@ function FeatureCard({ feature, index }: { feature: Feature; index: number }) {
       className={`group ${spanClasses[feature.span]}`}
     >
       <article
-        className={`relative flex h-full overflow-hidden rounded-[28px] border border-forest/8 bg-white p-7 transition-all duration-[650ms] ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1.5 hover:border-gold/35 hover:shadow-[0_40px_80px_-42px_rgba(6,63,50,0.4)] md:p-9 ${
+        className={`relative flex h-full overflow-hidden rounded-[28px] border border-forest/8 bg-white p-7 transition-all duration-[650ms] ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1.5 hover:border-gold/35 hover:shadow-[0_40px_80px_-42px_rgba(100, 46, 124,0.4)] md:p-9 ${
           isTall ? 'flex-col' : isWide ? 'flex-col justify-between sm:flex-row sm:items-end sm:gap-10' : 'flex-col'
         }`}
       >
@@ -85,7 +85,7 @@ export function WhyChooseUs() {
     <section id="why" className="section-y relative overflow-hidden bg-ivory">
       <div
         aria-hidden
-        className="absolute inset-x-0 top-0 h-72 bg-[radial-gradient(50%_100%_at_80%_0%,rgba(237,229,213,0.9),transparent_70%)]"
+        className="absolute inset-x-0 top-0 h-72 bg-[radial-gradient(50%_100%_at_80%_0%,rgba(228, 224, 245,0.9),transparent_70%)]"
       />
 
       <div className="shell relative">

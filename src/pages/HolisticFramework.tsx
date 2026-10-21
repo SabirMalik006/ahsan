@@ -4,7 +4,7 @@ import { frameworkContent } from '../data/framework'
 export default function HolisticFramework() {
   return (
     <section className="relative overflow-hidden bg-ivory pt-28 md:pt-36">
-      <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[120vh] bg-[radial-gradient(circle_at_top,rgba(201,164,92,0.12),transparent_70%)]" />
+      <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[120vh] bg-[radial-gradient(circle_at_top,rgba(115, 81, 178,0.12),transparent_70%)]" />
       <div aria-hidden className="pattern-arabesque pointer-events-none absolute -top-40 right-[-10%] -z-10 h-[40rem] w-[40rem] rotate-12 opacity-[0.08]" />
       <div className="shell section-y">
         <div className="mx-auto max-w-4xl text-center">
@@ -28,9 +28,9 @@ export default function HolisticFramework() {
                 <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-gold/10 blur-2xl" />
                 <div className="flex flex-col gap-8 md:flex-row md:items-start md:gap-10">
                   <div className="flex shrink-0 items-center justify-center">
-                    <div className="relative grid h-16 w-16 place-items-center rounded-full border border-gold/40 bg-gradient-to-br from-forest via-forest-soft to-forest-deep text-2xl font-display text-cream shadow-[0_20px_60px_-30px_rgba(6,63,50,0.9)] md:h-20 md:w-20">
+                    <div className="relative grid h-16 w-16 place-items-center rounded-full border border-gold/40 bg-gradient-to-br from-forest via-forest-soft to-forest-deep text-2xl font-display text-cream shadow-[0_20px_60px_-30px_rgba(100, 46, 124,0.9)] md:h-20 md:w-20">
                       {s.number}
-                      <div className="absolute inset-0 rounded-full bg-[radial-gradient(circle_at_50%_20%,rgba(229,201,133,0.28),transparent_70%)]" />
+                      <div className="absolute inset-0 rounded-full bg-[radial-gradient(circle_at_50%_20%,rgba(137, 132, 216,0.28),transparent_70%)]" />
                     </div>
                   </div>
                   <div className="flex-1">

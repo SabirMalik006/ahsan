@@ -6,7 +6,7 @@ import type { Program } from '../../types/program'
 export function ProgramCTA({ program }: { program: Program }) {
   return (
     <section className="section-y relative overflow-hidden bg-forest-deep text-cream">
-      <div aria-hidden className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(229,201,133,0.16),transparent_70%)]" />
+      <div aria-hidden className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(137, 132, 216,0.16),transparent_70%)]" />
       <div aria-hidden className="pattern-arabesque pointer-events-none absolute -right-40 top-10 -z-10 h-[30rem] w-[30rem] rotate-12 opacity-[0.1]" />
       <div className="shell">
         <div className="mx-auto max-w-3xl text-center">
@@ -24,7 +24,7 @@ export function ProgramCTA({ program }: { program: Program }) {
             </div>
           </Reveal>
           <Reveal delay={0.08}>
-            <p className="mt-6 text-xs uppercase tracking-[0.22em] text-cream/70">Learn • Grow • Transform</p>
+            <p className="mt-6 text-xs uppercase tracking-[0.22em] text-cream/70">Learn ï¿½ Grow ï¿½ Transform</p>
           </Reveal>
         </div>
       </div>

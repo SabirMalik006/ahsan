@@ -31,7 +31,7 @@ function HeroCta({
     'group/cta inline-flex h-[52px] items-center justify-center gap-2.5 rounded-[18px] px-7 text-[0.9rem] font-medium tracking-[0.01em] transition-[transform,background-color,color,border-color,box-shadow] duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-0.5 active:translate-y-0'
   const look =
     variant === 'primary'
-      ? 'bg-forest text-cream shadow-[0_18px_38px_-22px_rgba(6,63,50,0.85)] hover:bg-forest-soft hover:shadow-[0_24px_46px_-22px_rgba(6,63,50,0.7)]'
+      ? 'bg-forest text-cream shadow-[0_18px_38px_-22px_rgba(100, 46, 124,0.85)] hover:bg-forest-soft hover:shadow-[0_24px_46px_-22px_rgba(100, 46, 124,0.7)]'
       : 'border border-forest/20 bg-cream/40 text-forest hover:border-gold/70 hover:bg-forest/[0.04] hover:text-forest-deep'
 
   return (
@@ -137,7 +137,7 @@ export function HeroSlide({
         {/* offset deep-green architectural panel */}
         <div
           aria-hidden
-          className="absolute -bottom-10 -left-5 -right-5 top-8 rounded-[40px] border border-forest/10 bg-[linear-gradient(180deg,rgba(6,63,50,0.07),rgba(6,63,50,0.015))] lg:-left-6 lg:-right-7"
+          className="absolute -bottom-10 -left-5 -right-5 top-8 rounded-[40px] border border-forest/10 bg-[linear-gradient(180deg,rgba(100, 46, 124,0.07),rgba(100, 46, 124,0.015))] lg:-left-6 lg:-right-7"
         />
         {/* pointed arch outline */}
         <ArchOutline
@@ -148,7 +148,7 @@ export function HeroSlide({
         <Rosette className="anim-spin-rev absolute -bottom-20 -right-10 h-64 w-64 text-forest/[0.07]" />
 
         {/* the frame */}
-        <div className="relative h-[336px] w-full overflow-hidden rounded-[26px] shadow-[0_60px_120px_-55px_rgba(4,43,34,0.72)] ring-1 ring-inset ring-white/25 sm:h-[380px] lg:h-[clamp(430px,56vh,600px)] lg:rounded-[30px]">
+        <div className="relative h-[336px] w-full overflow-hidden rounded-[26px] shadow-[0_60px_120px_-55px_rgba(63, 26, 84,0.72)] ring-1 ring-inset ring-white/25 sm:h-[380px] lg:h-[clamp(430px,56vh,600px)] lg:rounded-[30px]">
           <HeroVideo
             src={slide.video.src}
             poster={slide.video.poster}
@@ -160,12 +160,12 @@ export function HeroSlide({
           {/* cinematic scrim — keeps the footage readable, never dims it */}
           <div
             aria-hidden
-            className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(4,43,34,0.32)_0%,rgba(4,43,34,0)_28%,rgba(4,43,34,0)_60%,rgba(4,43,34,0.40)_100%)]"
+            className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(63, 26, 84,0.32)_0%,rgba(63, 26, 84,0)_28%,rgba(63, 26, 84,0)_60%,rgba(63, 26, 84,0.40)_100%)]"
           />
           {/* soft haze on the copy side — the film dissolves into the blur seam */}
           <div
             aria-hidden
-            className="pointer-events-none absolute inset-y-0 left-0 w-[22%] bg-[linear-gradient(90deg,rgba(248,244,234,0.42)_0%,rgba(248,244,234,0.16)_46%,rgba(248,244,234,0)_100%)]"
+            className="pointer-events-none absolute inset-y-0 left-0 w-[22%] bg-[linear-gradient(90deg,rgba(240, 238, 250,0.42)_0%,rgba(240, 238, 250,0.16)_46%,rgba(240, 238, 250,0)_100%)]"
           />
           <div
             aria-hidden
@@ -190,7 +190,7 @@ export function HeroSlide({
         <motion.div
           animate={reduced ? undefined : { y: [0, -6, 0] }}
           transition={{ duration: 7.5, ease: 'easeInOut', repeat: Infinity }}
-          className="absolute -bottom-5 left-0 flex items-center gap-3 rounded-[18px] border border-white/70 bg-white/[0.86] px-4 py-3 shadow-[0_28px_60px_-32px_rgba(6,63,50,0.62)] backdrop-blur-md sm:-left-5"
+          className="absolute -bottom-5 left-0 flex items-center gap-3 rounded-[18px] border border-white/70 bg-white/[0.86] px-4 py-3 shadow-[0_28px_60px_-32px_rgba(100, 46, 124,0.62)] backdrop-blur-md sm:-left-5"
         >
           <span className="inline-flex h-9 w-9 items-center justify-center rounded-[12px] border border-gold/35 bg-gold/12">
             <EightStar className="h-4 w-4 text-gold-deep" strokeWidth={1.2} />

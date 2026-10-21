@@ -8,13 +8,14 @@ const base =
 
 const variants: Record<Variant, string> = {
   primary:
-    'bg-forest text-cream shadow-[0_16px_36px_-22px_rgba(6,63,50,0.85)] hover:bg-forest-soft hover:shadow-[0_22px_44px_-20px_rgba(6,63,50,0.7)]',
-  gold: 'bg-gold text-forest-deep shadow-[0_16px_34px_-20px_rgba(201,164,92,1)] hover:bg-gold-light',
+    'bg-royal-purple text-white shadow-[0_12px_28px_rgba(100,46,124,.28)] hover:bg-deep-plum hover:shadow-[0_12px_28px_rgba(100,46,124,.28)]',
+  gold:
+    'bg-aqua-light text-ink shadow-[0_12px_28px_rgba(140,226,239,.35)] hover:bg-mist-blue',
   outline:
-    'border border-forest/20 text-forest hover:border-gold/70 hover:bg-forest/[0.04] hover:text-forest-deep',
-  ghost: 'text-forest/80 hover:text-forest hover:bg-forest/[0.05]',
+    'border border-royal-purple/20 text-royal-purple hover:border-periwinkle/70 hover:bg-periwinkle/[0.04] hover:text-deep-plum',
+  ghost: 'text-ink/80 hover:text-ink hover:bg-bg-soft/[0.05]',
   ivory:
-    'bg-cream/95 text-forest border border-cream shadow-[0_18px_40px_-24px_rgba(0,0,0,0.6)] hover:bg-white',
+    'bg-bg-soft/95 text-ink border-border-line shadow-[0_18px_40px_-24px_rgba(0,0,0,0.6)] hover:bg-white',
 }
 
 const sizes: Record<Size, string> = {
@@ -32,11 +33,8 @@ type CommonProps = {
   className?: string
 }
 
-type ButtonAsButton = CommonProps &
-  Omit<ComponentPropsWithoutRef<'button'>, keyof CommonProps> & { href?: undefined }
-
-type ButtonAsLink = CommonProps &
-  Omit<ComponentPropsWithoutRef<'a'>, keyof CommonProps> & { href: string }
+type ButtonAsButton = CommonProps & Omit<ComponentPropsWithoutRef<'button'>, keyof CommonProps> & { href?: undefined }
+type ButtonAsLink = CommonProps & Omit<ComponentPropsWithoutRef<'a'>, keyof CommonProps> & { href: string }
 
 export type ButtonProps = ButtonAsButton | ButtonAsLink
 
@@ -52,19 +50,23 @@ export function Button({
   const classes = `${base} ${variants[variant]} ${sizes[size]} ${className}`
 
   const content = (
-    <>
+    < >
       {icon && iconPosition === 'left' && (
-        <span className="transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover/btn:-translate-x-0.5">
+        <span
+          className="transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover/btn:-translate-x-0.5"
+        >
           {icon}
         </span>
       )}
       <span>{children}</span>
       {icon && iconPosition === 'right' && (
-        <span className="transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover/btn:translate-x-1">
+        <span
+          className="transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover/btn:translate-x-1"
+        >
           {icon}
         </span>
       )}
-    </>
+    </ >
   )
 
   if ('href' in rest && rest.href) {
@@ -81,4 +83,4 @@ export function Button({
       {content}
     </button>
   )
-}
+}

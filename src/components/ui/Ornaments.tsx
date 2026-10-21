@@ -8,7 +8,7 @@ export function EightStar({ className = '', strokeWidth = 1 }: { className?: str
     <svg viewBox="0 0 100 100" className={className} aria-hidden fill="none">
       <path
         d="M50 3l11.6 21.9L84 14l-10.9 22.4L97 50 73.1 63.6 84 86l-22.4-10.9L50 97l-11.6-21.9L14 86l10.9-22.4L3 50l23.9-13.6L14 14l22.4 10.9z"
-        stroke="currentColor"
+        stroke="var(--royal-purple)"
         strokeWidth={strokeWidth}
         strokeLinejoin="round"
       />
@@ -18,7 +18,7 @@ export function EightStar({ className = '', strokeWidth = 1 }: { className?: str
         width="46"
         height="46"
         transform="rotate(45 50 50)"
-        stroke="currentColor"
+        stroke="var(--royal-purple)"
         strokeWidth={strokeWidth * 0.75}
       />
     </svg>

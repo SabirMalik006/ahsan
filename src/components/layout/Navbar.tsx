@@ -38,7 +38,7 @@ export function Navbar() {
         <motion.div
           aria-hidden
           style={{ scaleX: progress }}
-          className="h-[2px] origin-left bg-gradient-to-r from-gold via-gold-light to-gold-deep"
+          className="h-[2px] origin-left bg-gradient-to-r from-royal-purple via-aqua-light to-deep-plum"
         />
 
         <div className="shell">
@@ -46,7 +46,7 @@ export function Navbar() {
             aria-label="Primary"
             className={`mt-3 flex items-center justify-between gap-4 rounded-full border px-3 py-2.5 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] md:px-5 md:py-3 ${
               scrolled
-                ? 'border-forest/8 bg-white/72 shadow-[0_18px_40px_-28px_rgba(6,63,50,0.5)] backdrop-blur-xl backdrop-saturate-150'
+                ? ' border-royal-purple/8 bg-bg-soft shadow-[0_18px_40px_-28px_rgba(6,63,50,0.5)] backdrop-blur-xl backdrop-saturate-150'
                 : 'border-transparent bg-transparent'
             }`}
           >
@@ -59,7 +59,7 @@ export function Navbar() {
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    className="group relative inline-flex items-center rounded-full px-3.5 py-2 text-[0.8125rem] font-medium text-forest/75 transition-colors duration-500 hover:text-forest xl:px-4"
+                    className="group relative inline-flex items-center rounded-full px-3.5 py-2 text-[0.8125rem] font-medium text-royal-purple/75 transition-colors duration-500 hover:text-forest xl:px-4"
                   >
                     {link.label}
                     <span className="absolute inset-x-3.5 bottom-1 h-px scale-x-0 bg-gold transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-x-100" />
@@ -79,7 +79,7 @@ export function Navbar() {
 
               <a
                 href="#final-cta"
-                className="hidden rounded-full px-3.5 py-2 text-[0.8125rem] font-medium text-forest/80 transition-colors duration-500 hover:text-forest md:inline-block"
+                className="hidden rounded-full px-3.5 py-2 text-[0.8125rem] font-medium text-royal-purple/80 transition-colors duration-500 hover:text-forest md:inline-block"
               >
                 Login
               </a>
@@ -102,7 +102,7 @@ export function Navbar() {
                 aria-label="Open navigation menu"
                 aria-expanded={open}
                 aria-controls="mobile-nav"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-forest/12 bg-white/70 text-forest backdrop-blur-md transition-colors duration-500 hover:border-gold/60 xl:hidden"
+                className="inline-flex h-10 w-10 items-center justify-center rounded-full border  border-royal-purple/12 bg-white/70 text-forest backdrop-blur-md transition-colors duration-500 hover: border-royal-purple/60 xl:hidden"
               >
                 <Menu className="h-[18px] w-[18px]" strokeWidth={1.5} />
               </button>
@@ -125,7 +125,7 @@ export function Navbar() {
               type="button"
               aria-label="Close navigation menu"
               onClick={() => setOpen(false)}
-              className="absolute inset-0 h-full w-full cursor-default bg-forest-deep/45 backdrop-blur-sm"
+              className="absolute inset-0 h-full w-full cursor-default  bg-deep-plum/45 backdrop-blur-sm"
             />
 
             <motion.aside
@@ -137,7 +137,7 @@ export function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ duration: 0.55, ease: SILK }}
-              className="absolute inset-y-0 right-0 flex w-[86%] max-w-[400px] flex-col overflow-y-auto border-l border-gold/20 bg-ivory px-7 pb-10 pt-7 shadow-[-30px_0_70px_-40px_rgba(6,63,50,0.6)]"
+              className="absolute inset-y-0 right-0 flex w-[86%] max-w-[400px] flex-col overflow-y-auto border-l  border-royal-purple/20 bg-bg-soft px-7 pb-10 pt-7 shadow-[-30px_0_70px_-40px_rgba(6,63,50,0.6)]"
             >
               <div className="flex items-center justify-between">
                 <Wordmark />
@@ -145,7 +145,7 @@ export function Navbar() {
                   type="button"
                   onClick={() => setOpen(false)}
                   aria-label="Close navigation menu"
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-forest/12 text-forest transition-colors duration-500 hover:border-gold/60"
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border  border-royal-purple/12 text-forest transition-colors duration-500 hover: border-royal-purple/60"
                 >
                   <X className="h-[18px] w-[18px]" strokeWidth={1.5} />
                 </button>
@@ -158,7 +158,7 @@ export function Navbar() {
                     initial={{ opacity: 0, x: 18 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.12 + i * 0.05, duration: 0.5, ease: SILK }}
-                    className="border-b border-forest/8"
+                    className="border-b  border-royal-purple/8"
                   >
                     <a
                       href={link.href}

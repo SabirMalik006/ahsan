@@ -14,7 +14,7 @@ import Register from './pages/Register'
 
 export default function App() {
   return (
-    <div className="relative min-h-screen bg-ivory">
+    <div className="relative min-h-screen bg-bg-soft">
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:fixed focus:left-6 focus:top-6 focus:z-[100] focus:rounded-full focus:bg-forest focus:px-5 focus:py-3 focus:text-sm focus:text-cream"
